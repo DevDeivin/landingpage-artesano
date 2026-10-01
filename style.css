@@ -105,10 +105,6 @@ span {
     gap: 15px;
 }
 
-.menu-item {
-
-}
-
 .menu-link {
     text-decoration: none;
     color: #6a6a6a;
@@ -133,5 +129,45 @@ span {
 
 .menu-item :hover {
     color: #000;
-    
+}
+
+#estudio {
+    background-color: #f4f4f5;
+    color: #000;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#h2-estudio {
+    font-size: 40px;
+    font-family: Cormorant Garamond;
+}
+
+#estudio h2::after {
+    content: "";
+    display: block;
+    width: 60px; 
+    border-top: 2px solid #6f7276; 
+}
+
+#estudio p {
+    max-width: 600px;
+    text-align: center;
+    color: #6a6a6a;
+}
+
+#estudio-itens {
+    display: flex;
+    gap: 150px;
+}
+
+#estudio-itens div p::before {
+    content: "";
+    display: block;
+    width: 60px; 
+    border-top: 2px solid #6f7276;
 }
